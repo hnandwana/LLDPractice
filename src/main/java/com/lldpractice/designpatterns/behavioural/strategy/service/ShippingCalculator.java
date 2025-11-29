@@ -1,8 +1,8 @@
-package com.lldpractice.designpatterns.behavioural.strategy.shipping.service;
+package com.lldpractice.designpatterns.behavioural.strategy.service;
 
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.model.Parcel;
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.model.ShippingResult;
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.strategy.ShippingStrategy;
+import com.lldpractice.designpatterns.behavioural.strategy.model.Parcel;
+import com.lldpractice.designpatterns.behavioural.strategy.model.ShippingResult;
+import com.lldpractice.designpatterns.behavioural.strategy.shippingstrategy.ShippingStrategy;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

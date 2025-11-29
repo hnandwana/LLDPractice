@@ -1,8 +1,8 @@
-package com.lldpractice.designpatterns.behavioural.strategy.shipping.strategy;
+package com.lldpractice.designpatterns.behavioural.strategy.shippingstrategy;
 
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.model.OrderStatus;
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.model.Parcel;
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.model.ShippingResult;
+import com.lldpractice.designpatterns.behavioural.strategy.model.OrderStatus;
+import com.lldpractice.designpatterns.behavioural.strategy.model.Parcel;
+import com.lldpractice.designpatterns.behavioural.strategy.model.ShippingResult;
 
 public class StandardShippingStrategy implements ShippingStrategy {
 

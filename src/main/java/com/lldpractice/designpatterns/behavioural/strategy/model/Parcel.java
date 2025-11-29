@@ -1,4 +1,4 @@
-package com.lldpractice.designpatterns.behavioural.strategy.shipping.model;
+package com.lldpractice.designpatterns.behavioural.strategy.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

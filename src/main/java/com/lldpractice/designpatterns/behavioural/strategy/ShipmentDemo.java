@@ -1,9 +1,9 @@
-package com.lldpractice.designpatterns.behavioural.strategy.shipping;
+package com.lldpractice.designpatterns.behavioural.strategy;
 
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.model.Parcel;
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.model.ShippingResult;
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.service.ShippingCalculator;
-import com.lldpractice.designpatterns.behavioural.strategy.shipping.strategy.*;
+import com.lldpractice.designpatterns.behavioural.strategy.model.Parcel;
+import com.lldpractice.designpatterns.behavioural.strategy.model.ShippingResult;
+import com.lldpractice.designpatterns.behavioural.strategy.service.ShippingCalculator;
+import com.lldpractice.designpatterns.behavioural.strategy.shippingstrategy.*;
 
 public class ShipmentDemo {
 
