@@ -6,24 +6,11 @@ A comprehensive Java project implementing design patterns for Low-Level Design (
 [![Maven](https://img.shields.io/badge/Maven-4.0.0-blue.svg)](https://maven.apache.org/)
 [![Progress](https://img.shields.io/badge/Progress-71%25-green.svg)](.)
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Technology Stack](#technology-stack)
-- [Implemented Design Patterns](#implemented-design-patterns)
-- [Project Structure](#project-structure)
-- [Learning Methodology](#learning-methodology)
-- [Getting Started](#getting-started)
-- [Documentation](#documentation)
-- [Progress Tracking](#progress-tracking)
-- [Next Steps](#next-steps)
 
 ## 🎯 Overview
 
 This project is a practical learning repository that demonstrates:
-- **12 Design Patterns** with real-world implementations
-- **112+ Java files** showcasing production-quality code
-- **~330KB of comprehensive documentation** with detailed notes
+- **Design Patterns** with real-world implementations
 - **Interview-focused** preparation for SDE positions
 - **Hands-on learning** using the Socratic method
 
@@ -340,11 +327,6 @@ Each pattern includes comprehensive documentation:
 | **Structural** | 7 | 7 | 🟢🟢🟢🟢🟢🟢🟢 100% ✅ |
 | **Behavioral** | 0 | 5 | ⚪⚪⚪⚪⚪  0% |
 
-### Project Statistics
-- **Total Java Files:** ~112
-- **Documentation Files:** 17
-- **Documentation Size:** ~330KB
-- **Real-world Examples:** 20+
 
 ## 🎯 Next Steps
 
@@ -386,21 +368,3 @@ This project covers key interview topics:
 ✅ Pattern trade-offs  
 
 **Ready for:** SDE interviews focusing on design patterns and LLD
-
-## 📝 Key Takeaways
-
-- **Production-Quality Code:** Real-world implementations, not toy examples
-- **Comprehensive Documentation:** 330KB of detailed notes
-- **Modern Java Practices:** Java 22, immutability, type safety
-- **Interview-Focused:** Designed for SDE preparation
-- **Practical Learning:** Socratic method for deep understanding
-
-## 📄 License
-
-This project is for educational purposes and interview preparation.
-
----
-
-**Last Updated:** November 2025  
-**Author:** Harsh Nandwana  
-**Purpose:** LLD Interview Preparation & Design Pattern Mastery

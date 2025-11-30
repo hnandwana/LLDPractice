@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
 # Complete Learning Prompt - Design Patterns Study 📚
 
 Copy this entire prompt and use it in a new chat to continue your learning journey!
