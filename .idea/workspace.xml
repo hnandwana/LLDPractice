@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c158da9-f5b9-4b82-9a82-d0f5af6581db" name="Changes" comment="" />
+    <list default="true" id="1c158da9-f5b9-4b82-9a82-d0f5af6581db" name="Changes" comment="fix: Remove unnecessary footnotes from behavioral design patterns introduction">
+      <change beforePath="$PROJECT_DIR$/notes/patterns/Important Design Patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/Important Design Patterns.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +21,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="35CYWdNkCay23bqLO7wZyNVf6hz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +64,8 @@
     "Maven.lld-practice [clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Harsh Nandwana/Desktop/Redis/LLDPractice/src/main/java/com/lldpractice/designpatterns/factory/uiabstractfactory/components/linux",
     "onboarding.tips.debug.path": "C:/Users/Harsh Nandwana/Desktop/Redis/LLDPractice/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
@@ -170,10 +183,23 @@
       <option name="presentableId" value="Default" />
       <updated>1762615556017</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix: Remove unnecessary footnotes from behavioral design patterns introduction">
+      <option name="closed" value="true" />
+      <created>1764487428153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764487428153</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: Remove unnecessary footnotes from behavioral design patterns introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Remove unnecessary footnotes from behavioral design patterns introduction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
