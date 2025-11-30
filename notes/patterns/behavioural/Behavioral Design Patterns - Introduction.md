@@ -40,7 +40,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 1. **Chain of Responsibility** 🔗
 
-**Intent:** Pass requests along a chain of handlers until one handles it[^2][^3]
+**Intent:** Pass requests along a chain of handlers until one handles it
 
 **Use Case:** Support ticket system (L1 → L2 → L3 support), middleware pipeline
 
@@ -50,7 +50,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 2. **Command** 🎮
 
-**Intent:** Encapsulate request as object, allowing parameterization and queuing[^3][^2]
+**Intent:** Encapsulate request as object, allowing parameterization and queuing
 
 **Use Case:** Undo/redo functionality, remote control, transaction systems
 
@@ -60,7 +60,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 3. **Interpreter** 📝
 
-**Intent:** Define grammar for a language and interpret sentences[^4][^3]
+**Intent:** Define grammar for a language and interpret sentences
 
 **Use Case:** SQL parsers, regex engines, calculators, DSLs
 
@@ -70,7 +70,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 4. **Iterator** 🔄
 
-**Intent:** Access elements of collection sequentially without exposing underlying representation[^5][^3]
+**Intent:** Access elements of collection sequentially without exposing underlying representation
 
 **Use Case:** Traverse lists, trees, custom collections
 
@@ -80,7 +80,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 5. **Mediator** 🤝
 
-**Intent:** Define object that encapsulates how objects interact, promoting loose coupling[^2][^4]
+**Intent:** Define object that encapsulates how objects interact, promoting loose coupling
 
 **Use Case:** Chat room (users communicate via mediator), UI component coordination
 
@@ -90,7 +90,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 6. **Memento** 💾
 
-**Intent:** Capture and restore object's internal state without violating encapsulation[^4][^2]
+**Intent:** Capture and restore object's internal state without violating encapsulation
 
 **Use Case:** Undo/redo, save game state, version control
 
@@ -100,7 +100,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 7. **Observer** 👁️
 
-**Intent:** Define one-to-many dependency so when one object changes, dependents are notified[^6][^2]
+**Intent:** Define one-to-many dependency so when one object changes, dependents are notified
 
 **Use Case:** Event listeners, MVC pattern, pub-sub systems, real-time updates
 
@@ -110,7 +110,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 8. **State** 🔄
 
-**Intent:** Allow object to alter behavior when internal state changes[^5][^4]
+**Intent:** Allow object to alter behavior when internal state changes
 
 **Use Case:** Vending machine states, order status workflow, TCP connection
 
@@ -120,7 +120,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 9. **Strategy** 🎯
 
-**Intent:** Define family of algorithms, encapsulate each one, make them interchangeable[^5][^4]
+**Intent:** Define family of algorithms, encapsulate each one, make them interchangeable
 
 **Use Case:** Sorting algorithms, payment methods, route calculation
 
@@ -130,7 +130,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 10. **Template Method** 📋
 
-**Intent:** Define algorithm skeleton, deferring some steps to subclasses[^6][^5]
+**Intent:** Define algorithm skeleton, deferring some steps to subclasses
 
 **Use Case:** Framework hooks, data processing pipelines, game AI
 
@@ -140,7 +140,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ### 11. **Visitor** 🚶
 
-**Intent:** Define new operation on object structure without changing classes[^3][^2]
+**Intent:** Define new operation on object structure without changing classes
 
 **Use Case:** Compiler AST traversal, export to multiple formats, tax calculation
 

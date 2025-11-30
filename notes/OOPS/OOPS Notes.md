@@ -9,7 +9,7 @@
 
 ### **A. IS-A Relationship (Inheritance)**
 
-**Definition**: Child class inherits from Parent class using `extends` keyword.[^1][^2]
+**Definition**: Child class inherits from Parent class using `extends` keyword.
 
 **Code Pattern**:
 
@@ -52,7 +52,7 @@ Dog d = new Animal();  // ❌ ERROR (Child cannot = Parent)
 
 ### **B. HAS-A Relationship (Aggregation)**
 
-**Definition**: Container "has" a Part, but Part exists independently. **Weak ownership**.[^3][^4]
+**Definition**: Container "has" a Part, but Part exists independently. **Weak ownership**.
 
 **Code Pattern**:
 
@@ -99,7 +99,7 @@ team.addPlayer(p1);  // Passed in
 
 ### **C. PART-OF Relationship (Composition)**
 
-**Definition**: Container "owns" Part. Part cannot exist without container. **Strong ownership**.[^4][^5]
+**Definition**: Container "owns" Part. Part cannot exist without container. **Strong ownership**.
 
 **Code Pattern**:
 
@@ -142,7 +142,7 @@ House house = new House();  // Rooms auto-created
 
 ### **D. USES-A Relationship (Dependency)**
 
-**Definition**: One class uses another temporarily (method parameter only). **No permanent connection**.[^6][^7]
+**Definition**: One class uses another temporarily (method parameter only). **No permanent connection**.
 
 **Code Pattern**:
 
@@ -214,7 +214,7 @@ doc.printDocument(p);  // Passed temporarily
 
 ## **4. METHOD OVERRIDING**
 
-**Definition**: Child class provides its own implementation of a method already defined in parent class.[^8][^9]
+**Definition**: Child class provides its own implementation of a method already defined in parent class.
 
 **Code Pattern**:
 
@@ -258,17 +258,17 @@ class Dog extends Animal {
 3. Cannot override `private`, `static`, or `final` methods
 4. Use `@Override` annotation (catches errors at compile time)
 
-**Why it matters**: Foundation for runtime polymorphism and design patterns.[^10][^11]
+**Why it matters**: Foundation for runtime polymorphism and design patterns.
 
 ***
 
 ## **5. POLYMORPHISM**
 
-**Definition**: "Many forms" - ability of an object to take different forms.[^12][^13]
+**Definition**: "Many forms" - ability of an object to take different forms.
 
 ### **A. Compile-Time Polymorphism (Method Overloading)**
 
-**Same method name, different parameters**. Decided at **compile time**.[^14]
+**Same method name, different parameters**. Decided at **compile time**.
 
 ```java
 class Calculator {
@@ -292,7 +292,7 @@ class Calculator {
 
 ### **B. Runtime Polymorphism (Method Overriding)**
 
-**Same method signature**. Decided at **runtime** based on actual object.[^15][^12]
+**Same method signature**. Decided at **runtime** based on actual object.
 
 ```java
 class Animal {
@@ -345,7 +345,7 @@ animal.makeSound();  // Meow!
 
 ### **A. Abstract Class**
 
-Cannot be instantiated. Can have both abstract and concrete methods.[^16][^17]
+Cannot be instantiated. Can have both abstract and concrete methods.
 
 ```java
 abstract class Animal {
@@ -379,7 +379,7 @@ class Dog extends Animal {
 
 ### **B. Interface**
 
-A contract defining what methods a class must implement.[^18][^16]
+A contract defining what methods a class must implement.
 
 ```java
 interface Flyable {

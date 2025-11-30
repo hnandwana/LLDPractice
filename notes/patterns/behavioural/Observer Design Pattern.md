@@ -1059,6 +1059,5 @@ public class ConcreteObserver implements Observer {
 }
 ```
 
-
 ***
 
