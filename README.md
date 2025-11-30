@@ -4,7 +4,7 @@ A comprehensive Java project implementing design patterns for Low-Level Design (
 
 [![Java](https://img.shields.io/badge/Java-22-orange.svg)](https://www.oracle.com/java/)
 [![Maven](https://img.shields.io/badge/Maven-4.0.0-blue.svg)](https://maven.apache.org/)
-[![Progress](https://img.shields.io/badge/Progress-71%25-green.svg)](.)
+[![Progress](https://img.shields.io/badge/Progress-76%25-green.svg)](.)
 
 
 ## 🎯 Overview
@@ -191,14 +191,64 @@ ParticleType explosionType = factory.getParticleType("EXPLOSION");
 
 ---
 
-### Behavioral Patterns (0/5 - Planned)
+### Behavioral Patterns (2/5 In Progress) 🔄
 
-The following patterns are planned for implementation:
+#### ✅ Strategy Pattern
+**Examples:** Shipping Cost Calculator
+
+**Key Features:**
+- Defines family of interchangeable algorithms
+- Runtime selection of strategy
+- Eliminates conditional statements
+- Open/Closed principle compliance
+
+**Implementations:**
+- Standard Shipping (5-7 days, ₹10/kg)
+- Express Shipping (2-3 days, ₹20/kg)
+- Overnight Shipping (next day, ₹30/kg, max 10kg)
+- Free Shipping (7-10 days, order ≥ ₹1000)
+
+**Use Cases:** Payment methods, sorting algorithms, compression strategies, shipping calculations
+
+```java
+ShippingCalculator calculator = new ShippingCalculator(new ExpressShippingStrategy());
+ShippingResult result = calculator.calculateShippingCost(parcel);
+// Can switch strategies at runtime
+calculator.setShippingStrategy(new OvernightShippingStrategy());
+```
+
+#### ✅ Observer Pattern
+**Examples:** Weather Station Monitoring System
+
+**Key Features:**
+- One-to-many dependency between objects
+- Automatic notification of state changes
+- Loose coupling between subject and observers
+- Exception handling for robust observer notification
+- Pull-based model (observers fetch data when notified)
+
+**Implementations:**
+- Subject: `WeatherStation` (tracks temperature, humidity, pressure)
+- Observers: `CurrentConditionsDisplay`, `StatisticsDisplay`, `ForecastDisplay`, `HeatIndexDisplay`
+- Dynamic observer registration/removal
+- Faulty observer handling (exceptions don't break notification chain)
+
+**Use Cases:** Event handling systems, MVC architectures, real-time monitoring, stock market tickers, notification systems
+
+```java
+WeatherStation weatherStation = new WeatherStation();
+CurrentConditionsDisplay display = new CurrentConditionsDisplay(weatherStation);
+StatisticsDisplay stats = new StatisticsDisplay(weatherStation);
+// Observers auto-register and get notified on updates
+weatherStation.setMeasurements(25.5f, 65f, 1013.2f);
+```
+
+---
+
+**Planned Patterns:**
 - Chain of Responsibility
 - State
 - Command
-- Observer
-- Strategy
 
 ## 📁 Project Structure
 
@@ -211,14 +261,18 @@ LLDPractice/
 │   │   ├── prototype/                 # Game characters
 │   │   └── singleton/                 # Logger
 │   │
-│   └── structural/                    # 58 files
-│       ├── adapter/                   # Logger, Weather
-│       ├── bridge/
-│       ├── composite/
-│       ├── decorator/                 # Notification decorators
-│       ├── facade/
-│       ├── flyweight/                 # Particle system
-│       └── proxy/                     # Document proxies
+│   ├── structural/                    # 58 files
+│   │   ├── adapter/                   # Logger, Weather
+│   │   ├── bridge/
+│   │   ├── composite/
+│   │   ├── decorator/                 # Notification decorators
+│   │   ├── facade/
+│   │   ├── flyweight/                 # Particle system
+│   │   └── proxy/                     # Document proxies
+│   │
+│   └── behavioural/                   # 19 files
+│       ├── observer/                  # Weather station monitoring
+│       └── strategy/                  # Shipping calculator
 │
 ├── notes/                             # ~330KB documentation
 │   ├── patterns/
@@ -319,22 +373,20 @@ Each pattern includes comprehensive documentation:
 
 ## 📊 Progress Tracking
 
-### Overall Progress: 71% Complete (12/17 patterns)
+### Overall Progress: 76% Complete (14/17 patterns)
 
 | Category | Completed | Total | Progress |
 |:---------|:---------:|:-----:|:---------|
 | **Creational** | 5 | 5 | 🟢🟢🟢🟢🟢 100% ✅ |
 | **Structural** | 7 | 7 | 🟢🟢🟢🟢🟢🟢🟢 100% ✅ |
-| **Behavioral** | 0 | 5 | ⚪⚪⚪⚪⚪  0% |
+| **Behavioral** | 2 | 5 | 🟢🟢⚪⚪⚪ 40% 🔄 |
 
 
 ## 🎯 Next Steps
 
 ### To Complete the Project
 
-1. **Implement Behavioral Patterns (Priority)**
-   - Strategy Pattern
-   - Observer Pattern
+1. **Implement Remaining Behavioral Patterns (Priority)**
    - Command Pattern
    - State Pattern
    - Chain of Responsibility
