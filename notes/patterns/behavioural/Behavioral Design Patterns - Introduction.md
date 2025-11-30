@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
 # 🎯 Behavioral Design Patterns - Introduction
 
 Congratulations on completing all Structural Patterns! Now let's dive into **Behavioral Patterns** - the final and largest category! 🚀
@@ -8,7 +6,7 @@ Congratulations on completing all Structural Patterns! Now let's dive into **Beh
 
 ## What are Behavioral Patterns?
 
-**Behavioral patterns** focus on **communication between objects** and the **assignment of responsibilities**. They define how objects interact, collaborate, and distribute work to accomplish complex tasks.[^1][^2][^3]
+**Behavioral patterns** focus on **communication between objects** and the **assignment of responsibilities**. They define how objects interact, collaborate, and distribute work to accomplish complex tasks.
 
 **Key Focus Areas:**
 
@@ -254,35 +252,4 @@ According to industry usage:[^6]
 6. Comprehensive revision notes
 
 ***
-
-## ✅ Ready to Begin?
-
-Type **"strategy"** to start with the **Strategy Pattern** - the gateway to Behavioral Patterns! 🚀
-
-Or type **"observer"** or **"template method"** if you want to start with those instead.
-
-**Let's master Behavioral Patterns together!** 💪
-<span style="display:none">[^10][^7][^8][^9]</span>
-
-<div align="center">⁂</div>
-
-[^1]: https://refactoring.guru/design-patterns/behavioral-patterns
-
-[^2]: https://www.geeksforgeeks.org/system-design/behavioral-design-patterns/
-
-[^3]: https://sourcemaking.com/design_patterns/behavioral_patterns
-
-[^4]: https://gist.github.com/xnuinside/0de6418355d39a3babbd857c25457861
-
-[^5]: https://www.xenonstack.com/insights/behavioural-design
-
-[^6]: https://msoft.team/behavioral-design-patterns-what-tasks-they-are-needed-for-types-and-examples-of-implementation/
-
-[^7]: https://www.linkedin.com/pulse/design-patterns-divided-three-categories-creational-structural-zhou
-
-[^8]: https://dev.to/lovestaco/introduction-to-gang-of-four-gof-design-patterns-57m0
-
-[^9]: https://www.youtube.com/watch?v=DBDnUkTobaE
-
-[^10]: https://www.c-sharpcorner.com/article/categorizing-design-patterns-creational-structural-behavioral/
 
